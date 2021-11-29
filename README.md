@@ -1,4 +1,4 @@
-# Optimization
+# Deep Learning and Optimization with JAX
 Low level implementation of deep learning problems and algorithms with JAX. 
 
 `image_deblurring` and `image_inpainting` notebooks are intended to demonstrate low-level implementation of image deblurring and image inpainting problem respectively without utilizing libraries with JAX.
