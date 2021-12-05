@@ -1,11 +1,13 @@
 # Deep Learning and Optimization with JAX
 Low level implementation of deep learning problems and algorithms with JAX. 
 
-`image_deblurring` and `image_inpainting` notebooks are intended to demonstrate low-level implementation of image deblurring and image inpainting problem respectively without utilizing libraries with JAX.
+`image_deblurring` and `image_inpainting` notebooks implements low-level solutions to Image Deblurring and Image Inpainting problems respectively without utilizing external libraries using JAX and Numpy.
 
-`optimization_algos` notebook consists of building a Logistic Regression Classifier for CelebA to solve an Binary Image Classification problem whether the image is Male or Female. Training is done on the first 15,000 images, and test is done on the last 5,000 images, and CelebA dataset was modified on the dataset to make this is a very simplified problem, because the aim is intended to demonstrate low-level implementations with JAX of key optimization algorithms from scratch.
+`optimization_algos` notebook implements a variety of optimization algorithms used commonly in Deep Learning from scratch using JAX and Numpy to solve Image Classification problem:
 
 - Stochastic Gradient Descent
 - Stochastic Gradient Descent with Momentum + L2 Regularization
 - ADAM
 - L-BFGS
+
+CelebA dataset was modified to simplify this into a binary classification problem, whether the image is Male or Female, this intentionally done to make this a very simplified problem - the aim is to demonstrate understanding of deep learning, optimization and JAX. Training is done on the first 15,000 images, and testing on the last 5,000 images, and a Logistic Regression Classifier is able to achieve 95+ AUC.
